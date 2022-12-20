@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+   padding: 4px;
+   background-color: #282c2d;
+   color: white;
+
+}
+
+nav ul {
+   margin-left: 6%;
+   padding: 5px;
+}
+
+nav ul li {
+   display: inline;
+   padding: 4px;
+   list-style: none;
+   margin-left: 10px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+.title {
+   font-size: large;
+}
+
+.navbartext {
+   color: lightgrey;
+}
+
+button {
+   background-color: #0e7861;
+   padding: 10px;
+   border: none;
+   width: 150px;
+   margin-top: 10px;
+   height: 40px;
+   font-size: 16px;
+   color: #fff;
+   border-radius: 5px;
+}
+
+button:hover {
+   background-color: cadetblue;
+   padding: 10px;
+   background-color: lightsteelblue;
+}
+
+.main-content {
+   display: flex;
+   flex-direction: row;
+   background-color: #19bd9b;
+   padding: 50px;
+}
+.right{
+   margin-left: 30%;
+   margin-top: -25px;
+}
+.main-content h1,
+h3,
+button {
+   margin-left: 5%;
+   margin-bottom: 5px;
+}
+
+.main-content h1 {
+   font-weight: 500;
+}
+
+.main-content h3 {
+   font-weight: 100;
+}
+
+
+.block-content {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.block-content p {
+   margin-top: 15px;
+   font-weight: 100;
+}
+
+.imgs-first {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 50px;
+   color: dodgerblue;
+}
+
+.imgs-first img {
+   height: 400px;
+   width: 500px;
+}
+
+.imgs-sec {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 40px;
+   color: dodgerblue;
+   height: 200px;
+   justify-content: space-evenly;
+}
+.imgs-sec img{
+   margin-left: 20px;
+   align-content: left;
+   align-items: left;
+   margin-left: -20px;
+}
+.imgs-secd{
+   display: flex;
+   flex-wrap: wrap;
+   color: dodgerblue;
+   height: 200px;
+   justify-content: left;
+   margin-left: 12%;
+   margin-bottom: 20px;
+}
+h2{
+   margin-top: 15px;
+   margin-left: 12%;
+   margin-bottom: -30px;
+   font-weight: 500;
+}
+.imgs-third{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 40px;
+   color: dodgerblue;
+   height: 200px;
+   margin-left: -50px;
+   justify-content: space-evenly;
+}
+.imgs-thirded{
+   display: flex;
+   flex-wrap: wrap;
+   color: dodgerblue;
+   height: 50px;
+   justify-content: left;
+   margin-left: 12%;
+   margin-bottom: 20px;
+}
+.imgs-fourth{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 40px;
+   color: dodgerblue;
+   margin-left: -50px;
+   justify-content: space-evenly;
+}
+.imgs-fourthed{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 40px;
+   color: dodgerblue;
+   margin-left: -50px;
+   justify-content: space-evenly;
+}
+
+
+.third {
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 100px;
+   margin-left: 50px;
+
+   color: dodgerblue;
+   border-bottom-style: solid;
+   border-bottom-color: gray;
+
+}
+
+.third img {
+   width: 300px;
+
+}
+
+.topic {
+   margin-left: 95px;
+}
+
+.contact-form {
+   display: flex;
+   flex-direction: row;
+   margin-left: 230px;
+   margin-top: 50px;
+   padding: 20px;
+
+}
+
+.contact-form input {
+   padding: 10px;
+   width: 400px;
+}
+
+.contact-form textarea {
+   padding: 10px;
+   width: 400px;
+   height: 100px;
+}
+
+.contact-info {
+   margin-left: 30px;
+   width: 600px;
+   margin-top: 50px;
+}
+.contact-info h3{
+   font-size: 30px;
+}
+
+.footer {
+   margin-left: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-left: -5%;
+   
+   padding: 20px;
+}
+
+.footertabs {
+   margin-left: -20px;
+}
+
+.footertabs ul li {
+   display: inline;
+   list-style: none;
+   margin-left: 10px;
+   padding: 10px;
+   font-size: 20px;
+   color: #0e7861;
+}
+
+.footabs ul li:hover {
+   color: cadetblue;
+}
